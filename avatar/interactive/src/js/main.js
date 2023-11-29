@@ -14,7 +14,7 @@ var system_prompt = `You are an AI assistant focused on delivering brief product
 
 const TTSVoice = "en-US-JennyMultilingualNeural" // Update this value if you want to use a different voice
 
-const CogSvcRegion = "westeurope" // Fill your Azure cognitive services region here, e.g. westus2
+const CogSvcRegion = "southeastasia" // Fill your Azure cognitive services region here, e.g. westus2
 
 const IceServerUrl = "turn:relay.communication.microsoft.com:3478" // Fill your ICE server URL here, e.g. turn:turn.azure.com:3478
 let IceServerUsername
@@ -24,7 +24,7 @@ let IceServerCredential
 const TalkingAvatarCharacter = "lisa"
 const TalkingAvatarStyle = "casual-sitting"
 
-supported_languages = ["en-US", "de-DE", "zh-CN", "ar-AE"] // The language detection engine supports a maximum of 4 languages
+supported_languages = ["en-US", "de-DE", "zh-CN", "ja-JP"] // The language detection engine supports a maximum of 4 languages
 
 const BackgroundColor = '#FFFFFFFF'
 
